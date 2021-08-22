@@ -1,7 +1,5 @@
-# Behavior Driven Development
-
-## 1. Agile: Driven Design and Development
-### 1.1 Agile
+# 1. Agile: Driven Design and Development
+## 1.1 Agile
 In software development, agile is a paradigm/philosophy to design and driven development of softwares.
 We are going to identify somes key words relevent to our experience:
 `DevOps`: Combination of software development and IT operation means continous delivery (CD). For me it not an agile method but a complement since delivery operation is include in the driven of software development as same in the team. 
@@ -11,11 +9,11 @@ We are going to identify somes key words relevent to our experience:
 `Collaboration`: Team (PO, Scrum Master, Dev, Designer, Tester etc.)
 
 By experience, `Design` and `Development` are notables operations to drive production of software in agile method scrum. Let us explore concepts used to implement these two operations.
-### 1.2 Design Patterns
+## 1.2 Design Patterns
 * Object-oriented analysis and design: 
 it exploits the concepts as `Entity`, `Aggregate`, `Encapsulation`, `Composition`, `Methode`, `Object`, `Polymorphism` etc. Bref higher architectural level.
 * Aspect-oriented design: 
-Introduce concept of `cross-cutting concerns` such as security, transaction management, logging to increase modularity.
+Introduce concept of `cross-cutting concerns` such as security, transaction management, logging to increase modularity and letting them focus purely on the business logic.
 * [Model Driven Design](https://www.todaysoftmag.com/article/1529/model-driven-design-theory-to-practice): It describes what a Conceptual Model is and how it is linked with the Problem Model/Domain Model/Business Model/Data Model etc.
 * [Domain Driven Design](http://www.infoq.com/minibooks/domain-drivendesign-quickly): It is a pattern which support on 3 principles. 
 
@@ -41,3 +39,11 @@ This layer contains information about the domain. This is the heart of the busin
 4. Infrastructure Layer
 
 This layer acts as a supporting library for all the other layers. It provides communication between layers, implements persistence for business objects, contains supporting libraries for the user interface layer, etc.
+
+## 1.3 Development Patterns
+* Object-oriented programing: It is programming pattern preceded by analysis, design and modeling. All base on object-oriented paradigm.
+* Aspect-oriented programming: It is modulary programming pattern which add additional behavior to existing code without modifying the code itself.
+* Test Driven Development: Software development process relying on business requirements being converted to test cases before development. It promotes software development by repeatedly testing the software against all test cases.
+* [Behavior Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development): It emerged from TDD and combines the general techniques and principles of OOP and DDD. The particularity for BDD is that business requirements are translated into functional/feature testing case as human-readable text by non-technical team members (QA/Test, Bunsiness Analysis, PO, Domain Experts).
+
+# 2.Behavior Driven Development
