@@ -51,7 +51,7 @@ Behavior Driven Development or BDD illustrates the methods of developing a featu
 The behavior is basically explained in a simple language which can be understood by all the collaborators – both technical and non-technical people (Dev, Ops, QA, PO, BA, Expert) to write feature requirements, constraints and, test scenarios.
 
 ## 2.1 Standard approach to conduct BDD
-![Standard approach to conduct BDD](../bdd-workflow.png)
+![Standard approach to conduct BDD](bdd-workflow.png)
 ## 2.1.1 Collaborators
 The collaborators explain and provide the feature/business requirements, acceptances criteria of the user stories as test cases for verification of system behavior. 
 The key element in this layer is `feature file` which describes the feature requirements in natural human language.
